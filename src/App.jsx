@@ -168,6 +168,16 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* Ko-fi Donation Button */}
+      <a
+        href="https://ko-fi.com/shawn_dis"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="donation-btn"
+      >
+        ☕ Support This Tool
+      </a>
+
       <header>
         <h1>PBR Channel Packer</h1>
         <div className="mode-switch">
@@ -289,6 +299,25 @@ function App() {
           </>
         )}
       </main>
+
+      {/* Premium CTA Footer */}
+      <footer>
+        <div className="premium-cta">
+          <h3>🚀 Want More Power?</h3>
+          <p>Upgrade to Channel Packer Pro for batch processing, custom presets, and 4K+ support</p>
+          <a
+            href="https://gumroad.com/l/YOURPRODUCTLINK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="premium-btn"
+          >
+            Get Pro Version - $5
+          </a>
+        </div>
+        <div className="footer-links">
+          Made with ❤️ by environment artists, for environment artists
+        </div>
+      </footer>
     </div>
   )
 }
